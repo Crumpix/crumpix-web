@@ -27,7 +27,7 @@ Primary use:	Showcase Portfolio
 /* 1. General Styles */		
 	
 	html,body{
-		font-family: 'GT-Walsheim', sans-serif;
+		font-family: 'Montserrat', sans-serif;
 		font-weight: 300;
 		font-size:18px;
 		height:100%;
@@ -109,7 +109,7 @@ Primary use:	Showcase Portfolio
 		background: none repeat scroll 0 0 #000;
 		text-decoration: none;
 		color:#fff;
-		font-family: "GT-Walsheim",sans-serif;
+		font-family: 'Montserrat', sans-serif;
 		font-size: 10px;
 		font-weight: 400;
 		letter-spacing: 4px;
@@ -125,7 +125,7 @@ Primary use:	Showcase Portfolio
 	var,
 	samp,
 	pre {
-		font-family: monospace, serif;
+		font-family: 'Montserrat', sans-serif;
 		font-size: 15px;
 		-webkit-hyphens: none;
 		-moz-hyphens:    none;
@@ -172,7 +172,7 @@ Primary use:	Showcase Portfolio
 		font-weight: 300;
 		line-height: 30px;
 		margin-bottom: 24px;
-		font-family: "GT-Walsheim", Times, serif;
+		font-family: 'Montserrat', sans-serif;
 		border-left:2px #ddd solid;
 		padding:20px 20px 20px 40px;
 		letter-spacing: 0.01em;
@@ -184,7 +184,7 @@ Primary use:	Showcase Portfolio
 		font-weight:400;
 		font-size:12px;
 		font-style:normal;
-		font-family: "GT-Walsheim",Geneva,sans-serif;
+		font-family: 'Montserrat', sans-serif;
 		color:#999;
 	}
 	
@@ -402,7 +402,7 @@ Primary use:	Showcase Portfolio
 		
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 600;
-		font-family: 'GT-Walsheim', sans-serif;
+		font-family: 'Montserrat', sans-serif;
 		color:#000;
 		margin-bottom:10px;
 	}
@@ -514,7 +514,7 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.smaller {
-		font-family: "GT-Walsheim",sans-serif;
+		font-family: 'Montserrat', sans-serif;
 		font-size: 10px;
 		font-weight: 400;
 		letter-spacing: 3px;
@@ -976,7 +976,7 @@ Primary use:	Showcase Portfolio
 		font-size:48px;
 		font-weight: 600;
 		position:relative;
-		font-family: 'GT-Walsheim', sans-serif;
+		font-family: 'Montserrat', sans-serif;
 		-webkit-transition: all 0.3s ease-in-out;
 		-moz-transition: all 0.3s ease-in-out;
 		-o-transition: all 0.3s ease-in-out;
@@ -1160,7 +1160,7 @@ Primary use:	Showcase Portfolio
 	.hero-title {
 		font-size: 48px;
 		font-weight: 600;
-		font-family: 'GT-Walsheim', sans-serif;
+		font-family: 'Montserrat', sans-serif;
 		color:#000;
 		position:relative;
 		z-index:10;
@@ -1582,7 +1582,7 @@ Primary use:	Showcase Portfolio
 		color: #000;
 		font-size: 14px;
 		font-weight: 500;
-		font-family: 'GT-Walsheim', sans-serif;
+		font-family: 'Montserrat', sans-serif;
 		display: block;
 		width: 100%;
 		margin: 0 auto;
@@ -1977,6 +1977,43 @@ Primary use:	Showcase Portfolio
 		padding-top: 40px;
 	}
 		
+}
+.item-overlay {
+	display: none;
+}
+.item-rotate div img {
+	cursor: default;
+}
+.socials-text {
+	visibility: hidden;
+}
+#open-filters {
+	visibility: hidden;
+}
+.color-content a.link {
+	font-size: 20px;
+	font-weight: 600;
+}
+.black-logo {
+	margin-top: -35px;
+}
+#menu-burger {
+	visibility: hidden;
+}
+.q1, .q2, .q3 {
+	font-size: 33px;
+}
+.q1 {
+	width: 728px;
+}
+.q2 {
+	width: 760px !important;
+}
+.q2, .q3 {
+	margin-top: 0 !important;
+}
+.hero-subtitle {
+	padding-top: 20px;
 }			
 
 
@@ -1998,7 +2035,7 @@ Primary use:	Showcase Portfolio
 	color: rgb(1, 214, 207);
 	font-size: 48px;
 	font-weight: 600;
-	font-family: 'GT-Walsheim', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	position:relative;
 	z-index:10;
 	line-height:60px;
@@ -2013,7 +2050,7 @@ Primary use:	Showcase Portfolio
 	color: rgb(1, 214, 207);
 	font-size: 48px;
 	font-weight: 600;
-	font-family: 'GT-Walsheim', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	position:relative;
 	z-index:10;
 	line-height:60px;
@@ -2028,7 +2065,7 @@ Primary use:	Showcase Portfolio
 	color: rgb(1, 214, 207);
 	font-size: 48px;
 	font-weight: 600;
-	font-family: 'GT-Walsheim', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	position:relative;
 	z-index:10;
 	line-height:60px;

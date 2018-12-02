@@ -89,7 +89,7 @@ Function Firs tLoad
 			return $("#page-content").data('textcolor')
 		});
 		
-		if( jQuery('.tooltip-hover').length > 0 ){			
+		/* if( jQuery('.tooltip-hover').length > 0 ){			
 				
 			var tooltips = document.querySelectorAll('.item-overlay');
 	
@@ -102,7 +102,7 @@ Function Firs tLoad
 				}
 			};
 			
-		}
+		} */
 		
 		$('#menu-burger, #close-menu').on('click', function() {
 			$('header').toggleClass('open');
@@ -649,7 +649,7 @@ Function FullPage
 				$('#page-content').addClass("project-light-content");
 			}
 			
-			$('.view-project').on('mouseenter', function() {
+			/* $('.view-project').on('mouseenter', function() {
 				$(".active .section-image").addClass('hover-speed');
 				$(".active .section-image").addClass('hover');
 			}).on('mouseleave', function() {
@@ -657,7 +657,7 @@ Function FullPage
 				setTimeout( function(){
 					$(".active .section-image").removeClass('hover-speed');
 				} , 600 );
-			});	
+			});	*/
 			
 			
 		}
@@ -1152,7 +1152,7 @@ Function Sliders
 				}
 			}
 		});
-		
+		/*
 		if( $('.text-carousel').length > 0 ){		
 			$(".text-carousel").owlCarousel({	
 				loop:true,
@@ -1163,7 +1163,7 @@ Function Sliders
 				smartSpeed: 750,
 				autoplayHoverPause:true
 			});		  
-		}
+		}*/
 		
 	
 	}//End Sliders
