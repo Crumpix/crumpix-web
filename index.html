@@ -2,19 +2,26 @@
 <html lang="en">
 <head>
 
-    <title>Crumpix - Award winning location independent creative agency</title>
+    <title>Cubez - Modern Portfolio showcase Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Perfect masonry isotope portfolio template. Masonry portfolio examples. Build your portfolio with berger template." />
-    <meta name="keywords" content="design agency, ui/ux design, virtual reality, augmented reality, creative agency " />
-    <meta name="author" content="Zain Raza">
+    <meta name="keywords" content="masonry portfolio, portfolio design, portfolio template, minimal portfolio, masonry isotope portfolio " />
+    <meta name="author" content="ClaPat Studio">
     <meta charset="UTF-8" />
         
     <link rel="icon" type="image/ico" href="favicon.ico" />
-    <link href="styles.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
     <link href="css/font-awesome.min.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,500,600" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:500,600" rel="stylesheet">    
    
 </head>
+    
+
+
+
+
+
 
 <body class="hidden">
 	
@@ -29,7 +36,7 @@
 	<div class="cd-index cd-main-content">
 	
 	<!-- Page Content -->
-	<div id="page-content" class="color-content" data-bgcolor="#fff" data-textcolor="#01d6cf">
+	<div id="page-content" class="light-content color-content grain-page" data-bgcolor="#222" data-textcolor="#9000ff">
     	
         
     
@@ -39,10 +46,10 @@
         
             <!-- Logo -->
             <div id="logo">
-                <a class="ajax-link"  href="index.html">
+                <a class="ajax-link" data-type="page-transition" href="index.html">
                     <img class="black-logo" src="images/logo.png" alt="Logo Black">
                     <img class="white-logo" src="images/logo-white.png" alt="Logo White">
-                    <img class="color-logo" src="images/logo.png" alt="Logo White">
+                    <img class="color-logo" src="images/logo-purple.png" alt="Logo White">
                 </a>
             </div>
             <!--/Logo -->
@@ -73,13 +80,13 @@
                         <ul class="main-menu">
                             <li class="has-sub active"><a href="#"><span></span>Portfolio</a>
                                 <ul>
-                                    <li><a class="ajax-link menu-link"  href="index.html">Bricks</a></li>
-                                    <li><a class="ajax-link menu-link"  href="showcase.html">Showcase</a></li>
-                                    <li class="active"><a class="ajax-link menu-link"  href="zipper.html">Zipper</a></li>
+                                    <li class="active"><a class="ajax-link menu-link" data-type="page-transition" href="index.html">Bricks</a></li>
+                                    <li><a class="ajax-link menu-link" data-type="page-transition" href="showcase.html">Showcase</a></li>
+                                    <li><a class="ajax-link menu-link" data-type="page-transition" href="zipper.html">Zipper</a></li>
                                 </ul>
                             </li>
-                            <li><a class="ajax-link menu-link"  href="about.html"><span></span>About</a></li>
-                            <li><a class="ajax-link menu-link"  href="contact.html"><span></span>Contact</a></li>
+                            <li><a class="ajax-link menu-link" data-type="page-transition" href="about.html"><span></span>About</a></li>
+                            <li><a class="ajax-link menu-link" data-type="page-transition" href="contact.html"><span></span>Contact</a></li>
                             <li><a class="menu-link" target="_blank" href="https://themeforest.net/user/clapat/portfolio"><span></span>Buy Now</a></li>
                         </ul>                
                     </nav>
@@ -117,15 +124,12 @@
             <!-- Hero Section -->
             <div id="hero">
                 <div id="hero-styles" class="scale-onscroll opacity-onscroll">
-                	<div id="hero-bg-image" class="" style="background-image:url(images/02hero.jpg)"><div id="grain-hero"></div></div>
+                	<div id="hero-bg-image" class="light-content" style="background-image:url(images/01hero.jpg)"><div id="grain-hero"></div></div>
                 
                     <div id="hero-caption">
                         <div class="inner">
-                            <!-- <div class="hero-title">Crumpix is an award-winning location-independent Creative Agency.</div> -->
-                            <p class="q1">Crumpix is an award-winning location-independent Creative Agency.</p>
-                            <p class="q2">location-independent Creative Agency.</p>
-                            <p class="q3">Agency.<span class="blink">|</span></p>
-                            <div class="hero-subtitle">The craft of brandmaking.</div>                        
+                            <div class="hero-subtitle">Creating digital products for creative peoples.</div>
+                            <div class="hero-title">We are a <ins>creative agency</ins> based in New York</div>                        
                         </div>
                     </div>
                 
@@ -141,19 +145,19 @@
                 
                 <!-- Portfolio Wrap -->
                 <div id="portfolio-wrap" class="bricks">
-                    
+                	
                     <!-- Portfolio Columns -->
                     <div id="portfolio" data-col="2">
                   
-                    <div class="item wide branding">
-                        <div class="item-transform">
+                  	<div class="item wide branding">
+                    	<div class="item-transform">
                             <div class="item-rotate">
-                                <div class="ajax-link" >
+                                <a href="project01.html" class="ajax-link" data-type="page-transition">
                                     <div class="item-content light-content">
-                                        <img  src="images/1.jpg">
+                                        <div class="item-image" data-src="images/1.jpg"></div>
                                         <div class="item-caption">
                                             <div class="item-overlay">
-                                                <div class="item-sub-mask">
+                                            	<div class="item-sub-mask">
                                                     <div class="item-cat">Branding</div>
                                                     <div class="item-case">View Project</div>
                                                 </div>
@@ -168,20 +172,20 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                     
                     <div class="item wide design">
-                        <div class="item-transform">
+                    	<div class="item-transform">
                             <div class="item-rotate">
-                                <div class="ajax-link item-down" >
+                                <a href="project02.html" class="ajax-link item-down" data-type="page-transition">
                                     <div class="item-content light-content">
-                                        <img  src="images/2.jpg">
+                                        <div class="item-image" data-src="images/2.jpg"></div>
                                         <div class="item-caption">
                                             <div class="item-overlay">
-                                                <div class="item-sub-mask">
+                                            	<div class="item-sub-mask">
                                                     <div class="item-cat">Art Direction</div>
                                                     <div class="item-case">View Project</div>
                                                 </div>
@@ -196,17 +200,17 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
+                                </a>
+                        	</div>
                         </div>
                     </div>
                     
                     <div class="item web">
-                        <div class="item-transform">
+                    	<div class="item-transform">
                             <div class="item-rotate">
-                                <div class="ajax-link" >
-                                    <div class="item-content light-content">
-                                        <img  src="images/3.jpg">
+                                <a href="project03.html" class="ajax-link" data-type="page-transition">
+                                    <div class="item-content">
+                                        <div class="item-image" data-src="images/3.jpg"></div>
                                         <div class="item-caption">
                                             <div class="item-overlay">                                                
                                                 <div class="item-sub-mask">
@@ -224,17 +228,17 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
+                                </a>
+                        	</div>
                         </div>
                     </div>
                     
                     <div class="item web">
-                        <div class="item-transform">
+                    	<div class="item-transform">
                             <div class="item-rotate">
-                                <div class="ajax-link" >
+                                <a href="project04.html" class="ajax-link" data-type="page-transition">
                                     <div class="item-content light-content">
-                                        <img  src="images/4.jpg">
+                                        <div class="item-image" data-src="images/4.jpg"></div>
                                         <div class="item-caption">
                                             <div class="item-overlay">                                                
                                                 <div class="item-sub-mask">
@@ -252,17 +256,17 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
+                                </a>
+							</div>
+						</div>
                     </div>
                     
                     <div class="item wide design">
-                        <div class="item-transform">
+                    	<div class="item-transform">
                             <div class="item-rotate">
-                                <div class="ajax-link item-down" >
+                                <a href="project05.html" class="ajax-link item-down" data-type="page-transition">
                                     <div class="item-content light-content">
-                                        <img  src="images/5.jpg">
+                                        <div class="item-image" data-src="images/5.jpg"></div>
                                         <div class="item-caption">
                                             <div class="item-overlay">                                                
                                                 <div class="item-sub-mask">
@@ -280,17 +284,17 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                     
                     <div class="item wide web">
-                        <div class="item-transform">
+                    	<div class="item-transform">
                             <div class="item-rotate">
-                                <div class="ajax-link" >
+                                <a href="project06.html" class="ajax-link" data-type="page-transition">
                                     <div class="item-content light-content">
-                                        <img  src="images/6.jpg">
+                                        <div class="item-image" data-src="images/6.jpg"></div>
                                         <div class="item-caption">
                                             <div class="item-overlay">                                                
                                                 <div class="item-sub-mask">
@@ -308,17 +312,17 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                    			</a>
                             </div>
-                        </div>
+						</div>
                     </div>
                     
                     <div class="item branding">
-                        <div class="item-transform">
+                    	<div class="item-transform">
                             <div class="item-rotate">
-                                <div class="ajax-link item-down" >
+                                <a href="project07.html" class="ajax-link item-down" data-type="page-transition">
                                     <div class="item-content light-content">
-                                        <img  src="images/7.jpg">
+                                        <div class="item-image" data-src="images/7.jpg"></div>
                                         <div class="item-caption">
                                             <div class="item-overlay">                                                
                                                 <div class="item-sub-mask">
@@ -336,17 +340,17 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
+                                </a>
+                        	</div>
                         </div>
                     </div>
                     
                     <div class="item design">
-                        <div class="item-transform">
+                    	<div class="item-transform">
                             <div class="item-rotate">
-                                <div class="ajax-link item-down" >
+                                <a href="project08.html" class="ajax-link item-down" data-type="page-transition">
                                     <div class="item-content light-content">
-                                        <img  src="images/8.jpg">
+                                        <div class="item-image" data-src="images/8.jpg"></div>
                                         <div class="item-caption">
                                             <div class="item-overlay">                                                
                                                 <div class="item-sub-mask">
@@ -364,8 +368,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
+                                </a>
+                        	</div>
                         </div>
                     </div>
                                         
@@ -406,11 +410,10 @@
                 
                 
                 <div class="footer-info">
-                     <img class="black-logo" src="images/logo.png" alt="Logo Black">
-                     <div class="contact-footer">
-                        <a class="link" href="skype:crumpixdotcom?call">skype: crumpixdotcom</a><br>
-                        <a class="link" href="mailto:sam@crumpix.com">sam@crumpix.com</a>
-                    </div>  
+                    104 Fifth Ave 10th Floor, New York, NY 10011
+                    <br><br>
+                    212.965.8588<br>
+                    <a class="link" href="mailto:someone@yoursite.com">contact@cubez.com</a>  
                 </div>            
             
             </footer>
